@@ -1,0 +1,12 @@
+#ifndef __MASTERMIND_H
+#define __MASTERMIND_H
+
+#include <linux/ioctl.h>
+
+#define MASTERMIND_IOC_MAGIC  'k' 
+#define MASTERMIND_REMAINING    _IOR(MASTERMIND_IOC_MAGIC, 0, int) 
+#define MASTERMIND_ENDGAME 		_IO(MASTERMIND_IOC_MAGIC, 1) 
+#define MASTERMIND_NEWGAME    	_IOW(MASTERMIND_IOC_MAGIC, 2, int)
+#define MASTERMIND_IOC_MAXNR 2
+
+#endif
