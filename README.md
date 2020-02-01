@@ -4,16 +4,16 @@ Project is explained at p1.pdf file.
 
 module_parameters:
 
-	- mastermind_number
+	mastermind_number
 	
-	- mastermind_max_guesses
+	mastermind_max_guesses
 	
-	- mastermind_major
+	mastermind_major
 	
 	
 To install the module and create a device please run the command below:
 
-	- "sudo bash run_game.sh"
+	sudo bash run_game.sh
 	
 	
 If you want to test ioctl commands please uncomment the lines in the
@@ -23,4 +23,4 @@ information.
 
 You can see the logs created by the device in runtime with the command below:
 
-	- "dmesg"
+	dmesg
